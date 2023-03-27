@@ -22,7 +22,7 @@ public class CheckBalance {
             // display the output
             System.out.println();
             if (yourBalance != null) {
-                System.out.printf("your balance: %s%n", yourBalance.getBalanceFormatted());
+                System.out.println("your balance: " + yourBalance.toString());
             }
 
             // see if the user wants to continue
