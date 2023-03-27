@@ -16,13 +16,17 @@ public class CheckBalance {
             System.out.print("Enter bank code: ");
             String BankCode = sc.nextLine();
 
-
+<<<<<<<<< Temporary merge branch 1
+            // get the book object
+=========
+            // get the bank object
+>>>>>>>>> Temporary merge branch 2
             Balance yourBalance = BalanceOptions.getBalance(BankCode);
 
             // display the output
             System.out.println();
             if (yourBalance != null) {
-                System.out.printf("your balance: %s%n", yourBalance.getBalanceFormatted());
+                System.out.println("your balance: " + yourBalance.toString());
             }
 
             // see if the user wants to continue
