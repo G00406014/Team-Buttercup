@@ -4,7 +4,7 @@ import java.text.NumberFormat;
 
 public class Balance {
 
-    private double Balance;
+    private Double Balance;
     String Code;
 
 
@@ -21,8 +21,6 @@ public class Balance {
     public String getCode() {
         return Code;
     }
-
-
 
     public void setBalance(double price) {
         this.Balance = Balance;
