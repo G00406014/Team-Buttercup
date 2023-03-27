@@ -16,13 +16,13 @@ public class CheckBalance {
             System.out.print("Enter bank code: ");
             String BankCode = sc.nextLine();
 
-            // get the bank object
+
             Balance yourBalance = BalanceOptions.getBalance(BankCode);
 
             // display the output
             System.out.println();
             if (yourBalance != null) {
-                System.out.println("your balance: " + yourBalance.toString());
+                System.out.printf("your balance: %s%n", yourBalance.getBalanceFormatted());
             }
 
             // see if the user wants to continue

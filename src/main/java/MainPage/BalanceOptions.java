@@ -8,11 +8,11 @@ public class BalanceOptions {
         Balance myBalance = null;
         if (productCode.equalsIgnoreCase("Revolut")) {
             myBalance = new Balance();
-            myBalance.setPrice(57.86);
+            myBalance.setBalance(57.86);
 
         } else if (productCode.equalsIgnoreCase("Bank of ireland")) {
             myBalance = new Balance();
-            myBalance.setPrice(400.12);
+            myBalance.setBalance(400.12);
         }
 
         return myBalance;
