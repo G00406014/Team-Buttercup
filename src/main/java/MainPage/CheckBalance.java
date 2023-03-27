@@ -16,7 +16,11 @@ public class CheckBalance {
             System.out.print("Enter bank code: ");
             String BankCode = sc.nextLine();
 
+<<<<<<< HEAD
             // get the bank object
+=======
+            // get the book object
+>>>>>>> github/master
             Balance yourBalance = BalanceOptions.getBalance(BankCode);
 
             // display the output

@@ -12,7 +12,14 @@ public class LoginExample {
     private static final String PASSWORD = "Password";
     private static final DataSource dataSource;
 
+<<<<<<< HEAD
 
+=======
+    //notice the static has no name?
+    //The static block does not have a method name because it is a special block of code that
+    // is executed when the class is loaded into memory. It is used to initialize static variables and perform
+    // any other one-time setup that the class may require.
+>>>>>>> github/master
     static {
         MysqlDataSource mysqlDataSource = new MysqlDataSource();
         mysqlDataSource.setURL(URL);
